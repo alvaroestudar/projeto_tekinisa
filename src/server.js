@@ -29,6 +29,7 @@ app.post('/createProgrammer', async (req, res)=>{
        const properties = ['name','python','java','javascript'];
 
        const check = properties.every((property)=>{
+        
         return ptoperty in params;
        });
 
